@@ -49,3 +49,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # deviseをインストール
 gem 'devise'
+
+# 「refile」「refile-mini_magick」をインストールする
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
