@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+## railsのバージョンが5.0.0以上の指定となっていた , 参考：https://qiita.com/pontarou194/items/d0ecbbc2933620377a65
+gem 'rails', '~> 5.2.4'
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.3.6"
 # Use Puma as the app server
