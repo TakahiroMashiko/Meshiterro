@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     resource :favorites, only: [:create, :destroy]
     resources :post_comments, only: [:create, :destroy]
   end
-  # 以下の行のonly: []内にeditを追加
-  resources :users, only: [:show, :edit]
+  # 以下の行のonly: []内にupdateを追加
+  resources :users, only: [:show, :edit, :update]
 
 end
