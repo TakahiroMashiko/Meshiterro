@@ -1,3 +1,11 @@
+<!-- ここから -->
+<div class="profile-container">
+  <h3 class="profile-name"><%= @user.name %></h3>
+  <%= image_tag('sample-author1.jpg') %>
+</div>
+
+<!-- ここまでを追加 -->
+
 <% @post_images.each do |post_image| %>
 <div>
   <%= link_to post_image_path(post_image.id) do %>
