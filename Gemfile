@@ -57,3 +57,7 @@ gem "refile-mini_magick"
 
 # 「kaminari」をインストールする
 gem 'kaminari','~> 1.2.1'
+
+# 「Bootstrap」
+gem 'bootstrap', '~> 4.5'
+gem 'jquery-rails'
