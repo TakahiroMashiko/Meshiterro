@@ -1,4 +1,4 @@
-<% @post_images.each do |post_image| %>
+<% post_images.each do |post_image| %> <!-- @post_images → post_images -->
 <div>
   <%= link_to post_image_path(post_image.id) do %>
     <%= attachment_image_tag post_image, :image %>
@@ -10,4 +10,4 @@
   <p><%= link_to "#{post_image.post_comments.count} コメント", post_image_path(post_image.id) %></p>
 </div>
 <% end %>
-<%= paginate @post_images %>
+<%= paginate post_images %> <!-- @post_images → post_images -->
